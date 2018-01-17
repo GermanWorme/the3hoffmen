@@ -1,0 +1,19 @@
+Hello Dan,
+
+Waking up from the biggest snow storm of the year, I hope the weather has been softer in your part of the world.
+
+So I've put in a folder the relevant pieces of information I have to put up together this web page.  Which will be part of a site (but I'm responsible only for this part of the site, the «location» page/part).
+
+I have started with "index.html" and ""style1.css", I got confused, so I started again with "location.html" page (so they are 2 trying pieces toward the same goal/page).  And finally, I had a 3rd shot this time with Photoshop, which gave "LocationPh.jpg" (source : LocationPh.psd)
+
+The design is not finished, but if I can go up to that point, I can manage to finish it by myself, for sure.
+
+INSTRUCTIONS:
+As we scroll down the page, the bk image ends and I would like the rest of the page towards the bottom to continue the same light blue as the picture end.
+I would like everything but the background image encased in a 900px virtual limit.  Everything centered and 900px or smaller
+
+On hovering over the photos of the rooms, I would like to see appear the enlarged (full size) photo. (900 px wide max -> didn't have time to redimension the photos to 900 yet)
+
+QUESTION: 
+- "index" and "location" have the same code (in "style1.css") for the placement of "photo-site-2-avec-logo.jpg" as backgroung image but show a very different result.  Why ?
+- in "location.html" I have tried to position the title (titrePage and titrePage2 in the css) on a spot 2px distants (to mimick the shadow effect) but it didn't work. Why ?

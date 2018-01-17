@@ -1,0 +1,1 @@
+Hello, I'm new text that was pulled from an external text file (data.txt) via an asynchronous javascript event.

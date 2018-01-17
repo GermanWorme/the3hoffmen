@@ -1,0 +1,386 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
+
+video, object {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 15px;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+    color: #0052cc;
+}
+
+header p {
+    color: #777;
+    font-family: 'Roboto Slab', serif;
+}
+
+h2 {
+    position: relative;
+    top: -20px;
+    left: -32px;
+    width: 75%;
+    background: #6699ff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+p {
+    margin: 0 0 5px 0;
+}
+
+p.footnote {
+    font-size: .8rem;
+}
+
+section {
+    margin: 40px 0 0 0;
+    padding: 0 20px 20px 20px;
+    background-color: #e6f3ff;
+    border-radius: 10px;
+    border: 1px solid #6699ff;
+    box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.15);
+}
+
+/* START styles for flexbox layout */
+.fb-container {
+}
+
+.fb-header {
+    margin: 0;
+    padding: 30px;
+    background: #779ECB;
+    text-align: center;
+}
+
+.fb-nav {
+    background: #DEA5A4;
+}
+
+.fb-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.fb-nav ul li {
+    margin: 0;
+    padding: 4px 15px;
+    list-style: none;
+    text-align: center;
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+}
+
+.fb-nav ul li:hover {
+    background-color: skyblue;
+    cursor: pointer;
+}
+
+@media (min-width: 600px) {
+    .fb-nav ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .fb-nav ul li {
+        border-right: 1px solid #ccc;
+        border-bottom: none;
+    }
+    
+    .fb-nav ul li:last-child {
+        border-right: none;
+    }
+}
+
+.fb-cols {
+    margin: 15px 0 0 0;
+}
+
+@media (min-width: 700px) {
+    .fb-cols {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.fb-col {
+    box-sizing: border-box;
+    padding: 20px;
+    flex: 1;
+}
+
+.fb-col:nth-child(1) {background-color: #c0dbe2;}
+.fb-col:nth-child(2) {background-color: #cdf1c3;}
+.fb-col:nth-child(3) {background-color: #ccb9da;}
+
+.fb-form {
+    margin: 15px 0;
+    padding: 20px;
+    background: #dddfbd;
+    text-align: center;
+}
+
+.fb-footer {
+    padding: 30px;
+    background-color: #779ECB;
+    text-align: center;
+}
+/* END styles for flexbox layout */
+
+/* START styles for email button link */
+.btnEmail {
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none; 
+    background-color: orange;
+    color: #fff;
+     border-radius: 5px;
+}
+
+.btnEmail:hover {
+    background-color: darkorange;
+}
+/* END styles for email button link */
+
+/* START styles for the imported favorite songs list */
+.favSongs {
+    padding: 0;
+    display: block;
+    list-style-type: none;
+}
+
+.favSongs li {
+    margin: 0 0 10px 0;
+    padding: 5px;
+    border: 1px solid #555;
+    background: #4ddd46;
+    font-size: 1.3rem;
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+}
+
+.favSongs li ul {
+    margin: 5px 0 0 0;
+    padding: 0;
+}
+
+.favSongs li ul li {
+    margin: 0;
+    padding: 2px;
+    border: none;
+    list-style-type: none;
+    background: #fff;
+    font-size: .8rem;
+    color: #555;
+    font-family: 'Roboto', sans-serif;
+}
+
+.favSongs li ul li.alt {
+    background: #eee;
+}
+/* END styles for the imported favorite songs list */
+
+/* START styles for dynamic sections menu */
+
+.sectionsMenu {
+    margin: 15px 0 0 0;
+    padding: 0;
+    max-width: 330px;
+}
+
+.sectionsMenu li {
+    margin: 0;
+    padding: 4px 15px;
+    list-style: none;
+    background-color: cornflowerblue;
+    border-bottom: 1px solid #fff;
+}
+
+.sectionsMenu li:last-child {
+    border-bottom: none;
+}
+
+.sectionsMenu li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.sectionsMenu li:hover {
+    background-color: dodgerblue;
+    cursor: pointer;
+}
+
+/* END styles for dynamic sections menu */
+
+/* START styles for Simple Dice */
+
+.diceContainer {
+    display: flex;
+    align-items: center;
+
+}
+
+.die {
+    margin: 0 20px;
+    padding: 0;
+}
+
+.rollResults {
+    display: none;
+}
+
+.total {
+    font-size: 1.35rem;
+    font-weight: bold;
+    color: red;
+}
+
+/* END styles for Simple Dice */
+
+/* START styles for Yahtzee */
+
+.yahtzeeWrapper {
+    text-align: center;
+}
+
+.yahtzeeMsg {
+    margin: 0 0 15px 0;
+    text-align: center;
+}
+
+.btnRoll {
+    margin: 0 0 15px 0;
+    background: #1e5799; /* Old browsers */
+    background: url(../images/arrow-rotate-sm-fff.png), linear-gradient(to bottom,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+    background: url(../images/arrow-rotate-sm-fff.png), -moz-linear-gradient(top,  #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); /* FF3.6-15 */
+    background: url(../images/arrow-rotate-sm-fff.png), -webkit-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: url(../images/arrow-rotate-sm-fff.png), linear-gradient(to bottom,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 8px 8px 8px 40px;
+    border: none;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.25rem;
+    color: #fff;
+    border: 1px solid #6699ff;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.3);
+}
+
+.btnRoll span {
+    margin: 0 0 0 2px;
+    padding: 0 10px 1px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: red;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.diceWrapper {
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.yDie {
+    text-align: center;
+}
+
+.yDie img {
+    display: block;
+}
+
+.hold {
+    margin: 4px;
+    opacity: .4;
+}
+
+.hold:hover {
+    opacity: 1;
+}
+
+.yResults {
+    margin: 10px 0 0 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+.yResults li {
+    padding: 5px;
+    flex: 1;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: .8rem;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    color: #555;
+}
+
+.yResults li:last-child {
+    border-right: none;
+}
+
+.winner {
+    font-size: 1.8rem;
+    color: green;
+    text-align: center;
+}
+
+/* END styles for Yahtzee */
+
+/* START styles for Quotes */
+
+.quote {
+    display: none;
+    position: relative;
+    margin: 15px 0 0 0;
+    padding: 0 0 0 25px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+}
+
+.quote span {
+    display: inline-block;
+    font-family: 'Times New Roman', serif;
+    font-size: 2rem;
+    color: #888;
+}
+
+.quote .lq {
+    position: absolute;
+    top: -10px;
+    left: -1px;
+    font-size: 3rem;
+}
+
+.btnNextQuote {
+    display: none;
+}
+
+/* END styles for Quotes */

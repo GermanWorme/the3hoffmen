@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
+
+* {
+    background-color: gray;
+}
+h1 {
+    width: 300px;
+    color: coral;
+    visibility: show;
+    
+}
+
+p {
+    color: aqua;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+.underConstruction {
+    width: 350px;
+    font-family: 'Times New Roman';
+    border: 6px outset aqua;
+    background-color: black;
+    padding: 3px;
+
+}
+
+h2 {
+    color: aqua;
+}
+
+ul {
+    background-color: white;
+    padding: 10px;
+    width: 300px;
+    line-height: 1.4em;
+    color: aqua;
+    background-color: white;
+    box-shadow: inset 0 0 12px black;
+    list-style: inside square;
+}
+
+div {
+    padding-top: 100px;
+    margin: 10px auto 10px auto;
+    width: 360px;
+}
+
+li {
+    background-color: white;
+  padding: 0;
+}
+
+a {
+   cursor: pointer;
+}
+
+th{
+    background-color: black;
+    padding: 2px;
+    color: coral;
+}
+
+td{
+    background-color: black;
+    padding: 3px;
+    color: aqua;
+}
+
+input{
+    background-color: white;
+}
+
+h4{
+    color: aqua;
+        
+}
+
+.form1{
+    text-align: center;
+}
+
+textarea{
+    color:aqua;
+}
+
+select{
+    color: coral;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

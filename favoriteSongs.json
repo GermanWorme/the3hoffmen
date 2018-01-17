@@ -1,0 +1,93 @@
+[
+    {
+        "Song":"Cold Cold Cold",
+        "Artist": "Cage the Elephant",
+        "Album" : "Tell Me I'm Pretty",
+        "Time" : "3:34",
+        "Year" : 2015
+    },
+    {
+        "Song":"Send Them Off!",
+        "Artist": "Bastille",
+        "Album" : "Wild World",
+        "Time" : "3:20",
+        "Year" : 2016
+    },
+    {
+        "Song":"Blood in the Cut",
+        "Artist": "K. Flay",
+        "Album" : "Crush Me",
+        "Time" : "3:08",
+        "Year" : 2016
+    },
+    {
+        "Song":"On Hold",
+        "Artist": "The XX",
+        "Album" : "I See You",
+        "Time" : "3:44",
+        "Year" : 2017
+    },
+    {
+        "Song":"Down",
+        "Artist": "Marian Hill",
+        "Album" : "Act One",
+        "Time" : "3:17",
+        "Year" : 2016
+    },
+    {
+        "Song":"Radio",
+        "Artist": "Sylvan Esso",
+        "Album" : "Radio",
+        "Time" : "3:32",
+        "Year" : 2016
+    },
+    {
+        "Song":"Youth",
+        "Artist": "Glass Animals",
+        "Album" : "How to Be a Human Being",
+        "Time" : "3:50",
+        "Year" : 2016
+    },
+    {
+        "Song":"Lost on You",
+        "Artist": "LP",
+        "Album" : "Death Valley",
+        "Time" : "4:28",
+        "Year" : 2016
+    },
+    {
+        "Song":"Wish I Knew You",
+        "Artist": "The Revivalists",
+        "Album" : "Men Amongst Mountains",
+        "Time" : "4:34",
+        "Year" : 2015
+    },
+    {
+        "Song":"Breaking Free",
+        "Artist": "Night Riots",
+        "Album" : "Love Gloom",
+        "Time" : "4:03",
+        "Year" : 2016
+    },
+    {
+        "Song":"Somebody Else",
+        "Artist": "The 1975",
+        "Album" : "I like it when you sleep, for you are so beautiful yet so unaware of it",
+        "Time" : "5:47",
+        "Year" : 2016
+    },
+    {
+        "Song":"Light Up",
+        "Artist": "MUTEMATH",
+        "Album" : "Vitals",
+        "Time" : "3:42",
+        "Year" : 2016
+    },
+    {
+        "Song":"Roll Up",
+        "Artist": "Fitz & The Tantrums",
+        "Album" : "Fitz & The Tantrums",
+        "Time" : "3:38",
+        "Year" : 2016
+    }
+]

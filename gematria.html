@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="cache-control" content="no-cache">
+        <meta name="viewport" content="width=device-width">
+        <title>Welcome to the3hoff.men</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" rel="stylesheet">
+        <link href="styles/gematria.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Hoffman's Gematria Calculator</h1>
+            <label>Type a word or phrase in the text box.<sup>*</sup> Then click the Calculate Gematria button.</label>
+            <input id="input" class="txtInput" type="text" pattern="[A-Za-z\s]+" placeholder="*Only English alphabet letters (A-Z) are calculated." required>
+            <button id="calcBtn">Calculate Gematria</button>
+            <table class="results">
+                <thead>
+                    <tr>
+                        <th>Word(s) Entered</th>
+                        <th>Letters Calculated</th>
+                        <th>Gematria Value</th>
+                    </tr>
+                </thead>
+                <tbody id="output"></tbody>
+            </table>
+        </header>
+        <script src="js/gematria.js"></script>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+@media all {
+   .help, .decBar, .qualifications, .jobDesc, .qual, .prefQual { display: inherit !important; }
+}
+
+.help{
+    font-size: 50px;
+    font-family: 'Indie+Flower, Oswald, Roboto, Arial';
+    color:chocolate;
+    margin: 0px;
+    margin-bottom: -10px;
+    text-align:center
+    
+}
+.decBar {
+    height: 15px;
+    border-radius: 10px;
+    background-color: dimgrey
+}
+
+.qualifications {
+    margin-left:-15px;
+    font-size: 25px;
+}
+
+.jobDesc {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.qual {
+    margin: 0px;
+    margin-left: -px;
+    margin-bottom: -19px;
+    font-size: 25px;
+}
+
+
+
+
+.prefQual {
+    float:right;
+    text-align:justify;
+    font-size: 25px;
+    margin-top: -137px;
+    margin-left:
+    
+}
