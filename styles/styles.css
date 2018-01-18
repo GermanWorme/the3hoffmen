@@ -46,6 +46,35 @@ p.footnote {
     font-size: .8rem;
 }
 
+.menu-simple {
+    display: inline-block;
+    list-style: none;
+    padding-left: 1rem;
+    line-height: 1.4rem;
+}
+
+.menu-simple ul {
+    display: none;
+    list-style: none;
+    padding-left: 1rem;
+}
+
+.menu-simple a {
+    text-decoration: none;
+}
+
+.menu-simple li:before {
+    content: "\21d2\2002";
+}
+
+.menu-simple li.menu-projects:hover::before {
+    content: "\2009\21d3\2002";
+}
+
+.menu-simple li.menu-projects:hover ul {
+    display: block;
+}
+
 section {
     margin: 40px 0 0 0;
     padding: 0 20px 20px 20px;
